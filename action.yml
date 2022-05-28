@@ -1,0 +1,12 @@
+name: 'setup-agebox'
+description: 'Install agebox'
+icon: book-open
+color: '#FFFF00'
+inputs:
+  version:  # id of input
+    description: 'version'
+    required: false
+    default: 'v0.6.1'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
